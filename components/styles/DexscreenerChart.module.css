@@ -1,0 +1,30 @@
+.dexscreenerEmbed {
+    position: relative;
+    max-width: 1400px;
+    /* Or whatever maximum width you prefer */
+    margin: 0 auto;
+    /* Centers the chart horizontally */
+    padding-bottom: 56.25%;
+    /* Aspect ratio for 16:9 */
+    height: 0;
+    /* This effectively hides the div, and the iframe will be visible based on padding-bottom */
+}
+
+/* If you want the iframe to have a specific height instead of being based on the aspect ratio */
+.dexscreenerEmbed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* You can set a specific height here if needed */
+    top: 0;
+    left: 0;
+    border: 0;
+    /* Removes any border */
+}
+
+@media (min-width: 1400px) {
+    .dexscreenerEmbed {
+        padding-bottom: 35%;
+        /* You can adjust this percentage based on the desired aspect ratio */
+    }
+}

@@ -1,0 +1,24 @@
+/* src/components/styles/sectionTitleStyle.module.css */
+
+.sectionTitle__content {
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+/* Scoped class for paragraphs */
+.sectionTitle__paragraph {
+  margin-bottom: 1rem;
+}
+
+/* Scoped class for h2 headings */
+.sectionTitle__heading--h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Scoped class for h3 headings */
+.sectionTitle__heading--h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
