@@ -10,7 +10,7 @@ const SectionTitle = ({ align, pretitle, title, children }) => {
       }`}
     >
       {pretitle && (
-        <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase mb-2">
+        <div className="text-sm font-bold tracking-wider text-custom uppercase mb-2">
           {pretitle}
         </div>
       )}
