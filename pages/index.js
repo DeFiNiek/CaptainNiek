@@ -9,11 +9,7 @@ import Footer from "../components/footer";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
 import Chart from "../components/chart"
-import Contact from "../components/contact"
-
 import Spacer from '../components/spacer';
-
-import styles from "../components/styles/contactStyle.module.css"
 
 const Home = () => {
   return (
@@ -62,15 +58,6 @@ const Home = () => {
         </div>
       </div>
       <Spacer height="70px" />
-      <div id="contact">
-        <div className={styles.contactContainer}>
-          <SectionTitle
-            pretitle="Contact"
-            title="Contact me via e-mail">
-            <Contact />
-          </SectionTitle>
-        </div>
-      </div>
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Remember that you can also just join the Telegram or Discord
       </SectionTitle>

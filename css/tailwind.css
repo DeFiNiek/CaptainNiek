@@ -7,4 +7,16 @@
   body {
     @apply dark:bg-trueGray-900;
   }
+
+  .custom-icon-color {
+    color: #dfaf8f; /* Set the color for your SVG icons */
+  }
+
+  .currentColor {
+    color: #dfaf8f;
+  }
+
+  .custom-icon-stroke {
+    stroke: #dfaf8f; /* Set the stroke for SVG icons if needed */
+  }
 }

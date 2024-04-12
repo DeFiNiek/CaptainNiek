@@ -1,6 +1,6 @@
 import {
-  WalletIcon,
   CurrencyDollarIcon,
+  ChartBarIcon,
   NewspaperIcon,
   LockClosedIcon,
   FingerPrintIcon,
@@ -20,22 +20,22 @@ const benefitOne = {
     {
       title: "Pre-Sale locked liquidity",
       desc: "375.000.000/50% - Locked for 5 Years.",
-      icon: <WalletIcon />,
+      icon : <ChartBarIcon />,
     },
     {
       title: "Community distribution",
       desc: "187.500.000/25% - Airdrops & Event's",
-      icon: <CurrencyDollarIcon />,
+      icon: <CurrencyDollarIcon />, // Using CSS for color
     },
     {
       title: "Marketing distribution",
       desc: "82.500,000/11% - Used for strategic partnerships with centralized exchanges",
-      icon: <NewspaperIcon />,
+      icon: <NewspaperIcon />, // Using Tailwind custom color
     },
     {
       title: "Burning supply",
       desc: "105.000.000/14% - Burned over a 10 year period, monthly.",
-      icon: <FireIcon />,
+      icon: <FireIcon />, // Example using a Tailwind predefined color
     },
   ],
 };
