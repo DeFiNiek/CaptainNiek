@@ -41,6 +41,7 @@ const Home = () => {
         <div className="space-y-6">
           <p className="text-base leading-7">That surely is going to happen because the dude's trading over there are jacked to the tits and will short the f out of you. The main plan is to stay away from those exchanges until we're healthy enough.</p>
         </div>
+        <Spacer height="70px"/>
       </SectionTitle>
       <div id="roadmap" />
       <Benefits data={benefitOne} />
@@ -57,10 +58,12 @@ const Home = () => {
           <Chart />
         </div>
       </div>
-      <Spacer height="70px" />
+      <Spacer height="40px" />
+      <div id="FAQ">
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Remember that you can also just join the Telegram or Discord
       </SectionTitle>
+      </div>
       <Faq />
       <Cta />
       <Footer />

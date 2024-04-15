@@ -5,8 +5,8 @@ import {
   LockClosedIcon,
   FingerPrintIcon,
   VariableIcon,
-  FireIcon,
   CakeIcon,
+  UserIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/benefit-one.png";
@@ -14,7 +14,7 @@ import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Token Distribution",
-  desc: "I don't want to make it more complicated then it has to be, remember that it's memeonomics! The total supply will be 750.000.000",
+  desc: "I don't want to make it more complicated then it has to be, remember that it's memeonomics! The total supply will be 750.000.000 and ofcourse the Solana standarts, LP burned, 0% Tax. We don't want that sh*t in here!",
   image: benefitOneImg,
   bullets: [
     {
@@ -24,18 +24,18 @@ const benefitOne = {
     },
     {
       title: "Community distribution",
-      desc: "187.500.000/25% - Airdrops & Event's",
+      desc: "187.500.000/25% - Airdrops & Event's, join the Discord or Telegram for update's about event's.",
       icon: <CurrencyDollarIcon />, // Using CSS for color
     },
     {
       title: "Marketing distribution",
-      desc: "82.500,000/11% - Used for strategic partnerships with centralized exchanges",
+      desc: "82.500,000/11% - Used for strategic partnerships with influencers and exchanges.",
       icon: <NewspaperIcon />, // Using Tailwind custom color
     },
     {
-      title: "Burning supply",
-      desc: "105.000.000/14% - Burned over a 10 year period, monthly.",
-      icon: <FireIcon />, // Example using a Tailwind predefined color
+      title: "CEX Liquidity",
+      desc: "105.000.000/14% - Liquidity for the furure phases in order to get listed on Coinbase!",
+      icon: <UserIcon />, // Example using a Tailwind predefined color
     },
   ],
 };

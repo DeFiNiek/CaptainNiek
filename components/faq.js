@@ -53,8 +53,12 @@ const faqdata = [
       "Yes, feel free to DM me about everything. Although I am unable to recover losses I can and want to explain to you what has happend in order for us to learn from it.",
   },
   {
+    question: "How much experience do you have?",
+    answer: "I have a very good understanding of blockchain and crypto economics. I have developed and deployed numerous things also on other chains like Ethreum and Binance smart-chain. But I have never ran a project like this. This will be my first, and only project, I'm prepared to do the work for it and have great IRL connections related to the space and when we are big enough I can get us on some major EU exchanges.",
+  },
+  {
     question: "Can I help the community?",
-    anwser: "Yes please! Lol! I'm terrible at graphic design, if any of you are great at creating banners, meme's, logo's and stuff. Contact me in the Discord server, feel free to share anything."
+    answer: "Yes please! Lol! I'm terrible at graphic design, if any of you are great at creating banners, meme's, logo's and stuff. Contact me in the Discord server that also needs moderators, feel free to share anything. There are also a lot of programmers 100 times better as me so if you have any suggestions, feel free to contact me. We're really starting from scratch here",
   },
 ];
 

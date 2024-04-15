@@ -12,13 +12,16 @@ export default function Footer() {
     "Chart",
     "Contact",
   ];
+  const legalLinks = [
+    { label: "Legal Statement", href: "/legal" },
+  ];
 
   // Social links can also be mapped from an array if they become numerous
   const socialLinks = [
     { icon: <FaXTwitter size={24} />, href: "https://twitter.com/CaptainNiek", label: "X" },
-    { icon: <FaTelegram size={24}/>, href: "https://t.me/+tFSs5utypOQzZjZk", label: "Telegram" },
-    { icon: <FaDiscord size={24}/>, href: "https://discord.com/yourprofile", label: "Discord" },
-    { icon: <FaReddit size={24}/>, href: "https://reddit.com/yourprofile", label: "Reddit" },
+    { icon: <FaTelegram size={24} />, href: "https://t.me/+tFSs5utypOQzZjZk", label: "Telegram" },
+    { icon: <FaDiscord size={24} />, href: "https://discord.gg/6BHkYb24", label: "Discord" },
+    { icon: <FaReddit size={24} />, href: "https://www.reddit.com/r/CaptainNiek/", label: "Reddit" },
   ];
 
   return (
@@ -53,6 +56,17 @@ export default function Footer() {
                   {item}
                 </Link>
               ))}
+            </div>
+          </div>
+          <div>
+            <div>
+              <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
+                {legalLinks.map((item, index) => (
+                  <Link key={index} href={item.href} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
           {/* Social Icons Section */}
