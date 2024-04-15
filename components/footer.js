@@ -10,7 +10,6 @@ export default function Footer() {
     "About",
     "Roadmap",
     "Chart",
-    "Contact",
   ];
   const legalLinks = [
     { label: "Legal Statement", href: "/legal" },
@@ -79,7 +78,7 @@ export default function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-indigo-500"
+                  className="hover:text-custom"
                 >
                   <span className="sr-only">{social.label}</span>
                   {social.icon}
@@ -90,7 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made by {" DeFiNiek "}, for the Solana ecosystem.
+          Copyright © {new Date().getFullYear()}. Made by {"Niek"}, for the Solana ecosystem.
         </div>
       </Container>
     </div>

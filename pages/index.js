@@ -22,7 +22,6 @@ const Home = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar />
       <Hero />
       <div id="about" />
