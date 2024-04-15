@@ -52,6 +52,10 @@ const faqdata = [
     answer:
       "Yes, feel free to DM me about everything. Although I am unable to recover losses I can and want to explain to you what has happend in order for us to learn from it.",
   },
+  {
+    question: "Can I help the community?",
+    anwser: "Yes please! Lol! I'm terrible at graphic design, if any of you are great at creating banners, meme's, logo's and stuff. Contact me in the Discord server, feel free to share anything."
+  },
 ];
 
 export default Faq;

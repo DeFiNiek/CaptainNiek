@@ -11,6 +11,7 @@ module.exports = {
         trueGray: colors.neutral,
         custom: { // Custom color key
           DEFAULT: '#dfaf8f', // Default shade for your custom color
+          100: '#aa856f',
           // You can also add shades if needed, like so:
           // '100': '#...',
           // '200': '#...',
