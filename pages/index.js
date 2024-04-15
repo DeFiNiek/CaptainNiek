@@ -10,6 +10,7 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import Chart from "../components/chart"
 import Spacer from '../components/spacer';
+import Addresses from "../components/addresses";
 
 const Home = () => {
   return (
@@ -57,6 +58,10 @@ const Home = () => {
           <Chart />
         </div>
       </div>
+      <SectionTitle
+        pretitle="Addresses" title="Deployed Addresses">
+          <Addresses />
+      </SectionTitle>
       <Spacer height="40px" />
       <div id="FAQ">
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
