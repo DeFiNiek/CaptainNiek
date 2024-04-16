@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import { FaTwitter, FaReddit, FaTelegram, FaDiscord } from 'react-icons/fa';
+import { FaReddit, FaTelegram, FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
     "Chart",
   ];
   const legalLinks = [
-    { label: "Legal Statement", href: "/legal" },
+    { label: "Legal Statement", href: "https://filemanager.one.com/api/webspace/2/drive/captainbright.com/data/httpd.www/CaptainBright-Legal-Statement.pdf?forceDownload=true" },
   ];
 
   // Social links can also be mapped from an array if they become numerous

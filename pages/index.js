@@ -58,11 +58,7 @@ const Home = () => {
           <Chart />
         </div>
       </div>
-      <SectionTitle
-        pretitle="Addresses" title="Deployed Addresses">
-          <Addresses />
-      </SectionTitle>
-      <Spacer height="40px" />
+      <Addresses ></Addresses>
       <div id="FAQ">
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Remember that you can also just join the Telegram or Discord

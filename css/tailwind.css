@@ -19,4 +19,33 @@
   .custom-icon-stroke {
     stroke: #dfaf8f; /* Set the stroke for SVG icons if needed */
   }
+
+  /* Additional styles for the AddressButton component */
+  .bg-custom {
+    @layer bg-custom; /* Your button background color */
+  }
+
+  .bg-custom-dark {
+    @apply bg-custom; /* Darker background color on hover */
+  }
+
+  .border-custom-light {
+    @apply border-gray-800; /* Light border color */
+  }
+
+  .hover\:bg-custom-dark:hover {
+    @apply bg-custom; /* Apply the darker background on hover */
+  }
+
+  .hover\:border-custom:hover {
+    @apply border-gray-700 /* Apply this color for the border on hover */
+  }
+
+  .address-button-container a {
+    @apply no-underline; /* Remove underline from the link */
+  }
+
+  .address-button-container button {
+    @apply focus:outline-none; /* Remove focus outline on the copy button */
+  }
 }
