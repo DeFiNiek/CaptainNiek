@@ -38,7 +38,7 @@
   }
 
   .hover\:border-custom:hover {
-    @apply border-gray-700 /* Apply this color for the border on hover */
+    @apply border-gray-900 /* Apply this color for the border on hover */
   }
 
   .address-button-container a {

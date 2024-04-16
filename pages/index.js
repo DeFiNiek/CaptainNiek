@@ -41,7 +41,7 @@ const Home = () => {
         <div className="space-y-6">
           <p className="text-base leading-7">That surely is going to happen because the dude's trading over there are jacked to the tits and will short the f out of you. The main plan is to stay away from those exchanges until we're healthy enough.</p>
         </div>
-        <Spacer height="70px"/>
+        <Spacer height="70px" />
       </SectionTitle>
       <div id="roadmap" />
       <Benefits data={benefitOne} />
@@ -58,11 +58,23 @@ const Home = () => {
           <Chart />
         </div>
       </div>
-      <Addresses ></Addresses>
+
+      <div id="transparency">
+        <SectionTitle pretitle="Short Whitepaper" title="Transparency">
+          So here are all the important addresses made upon token creation.
+          You can of course use something like rugcheck but I always like to see the transactions of the token-accounts.
+          This is the right and only way to do it, check what the owner of the account addresses is actually doing with it.
+          This way you can check for example, if the community wallet indeed has dropped the promised airdrops. Or if there aren't any shady transactions made.
+          But you're going to sniff it anyway, why am I even telling this, lol. I recommend: 
+          <a href="https://solsniffer.com/" className="text-custom hover:text-custom dark:hover:text-custom-100" target="_blank" rel="noopener noreferrer"> Solsniffer</a> or
+          <a href="https://rugcheck.xyz/" className="text-custom hover:text-custom dark:hover:text-custom-100" target="_blank" rel="noopener noreferrer"> Rugcheck.xyz</a>
+          <Addresses />
+        </SectionTitle>
+      </div>
       <div id="FAQ">
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Remember that you can also just join the Telegram or Discord
-      </SectionTitle>
+        <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+          Remember that you can also just join the Telegram or Discord
+        </SectionTitle>
       </div>
       <Faq />
       <Cta />

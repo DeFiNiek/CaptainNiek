@@ -38,38 +38,29 @@ const AddressButton = ({ address }) => {
 const Addresses = () => {
     return (
         <div className="addresses-container my-12">
-            <SectionTitle
-                title="Deployed Addresses"
-                align="center"
-            >
-                <div className="addresses-list grid grid-cols-1 gap-0 px-4">
-                    <div className="addresses-list max-w-4xl mx-auto space-y-4">
-                        <SectionTitle pretitle="Token Address" align="left">
-                            <AddressButton address="4Fb9vvFhXD1YYFYPb6MQam39M5LWfiJXT5UZTWBuovA8" />
-                        </SectionTitle>
-                    </div>
-                    <div className="address mb-2">
-                        <SectionTitle pretitle="First Token Account Address" align="left">
-                            <AddressButton address="65sPq6aNsqFQkBfgUZzAbmA7y7VtxMgxWfycLefkEEcw" />
-                        </SectionTitle>
-                    </div>
-                    <div className="address mb-2">
-                        <SectionTitle pretitle="Community Wallet Address" align="left">
-                            <AddressButton address="HH1QDWHufy8FZnGE3e6GtwqwELUfQmL62UAE6F9n91DX" />
-                        </SectionTitle>
-                    </div>
-                    <div className="address mb-2">
-                        <SectionTitle pretitle="Marketing Wallet Address" align="left">
-                            <AddressButton address="9YCstgbBNq3fvC1QmPd1kRo8QmxakvoukxiM7JTHozR2" />
-                        </SectionTitle>
-                    </div>
-                    <div className="address mb-2">
-                        <SectionTitle pretitle="Liquidity Reserve Address" align="left">
-                            <AddressButton address="EPneMrKEefCuDAGheCM5yczDwp6KATTXHWf44yn2wKX8" />
-                        </SectionTitle>
-                    </div>
+            <div className="addresses-list grid grid-cols-1 gap-0 px-4">
+                <div className="addresses-list max-w-4xl mx-auto space-y-2"> {/* Reduced space between buttons */}
+                    <SectionTitle pretitle="Token Address" align="left" />
+                    <AddressButton address="4Fb9vvFhXD1YYFYPb6MQam39M5LWfiJXT5UZTWBuovA8" />
                 </div>
-            </SectionTitle>
+                {/* Reducing bottom margin and padding inside each address div */}
+                <div className="address mb-1">
+                    <SectionTitle pretitle="First Token Account Address" align="left" />
+                    <AddressButton address="65sPq6aNsqFQkBfgUZzAbmA7y7VtxMgxWfycLefkEEcw" />
+                </div>
+                <div className="address mb-1">
+                    <SectionTitle pretitle="Community Wallet Address" align="left" />
+                    <AddressButton address="qTtsmkT6HFx2vezj8fPv85MmyKfVy3a24RaEjyeLzyc" />
+                </div>
+                <div className="address mb-1">
+                    <SectionTitle pretitle="Marketing Wallet Address" align="left" />
+                    <AddressButton address="2eNWrPGLw54q8XbgbKjFfdSQFWmwTpfBswQJ7YMxjCvU" />
+                </div>
+                <div className="address mb-1">
+                    <SectionTitle pretitle="Liquidity Reserve Address" align="left" />
+                    <AddressButton address="65sPq6aNsqFQkBfgUZzAbmA7y7VtxMgxWfycLefkEEcw" />
+                </div>
+            </div>
         </div>
     );
 };
