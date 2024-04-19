@@ -19,7 +19,7 @@ const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://www.pinksale.finance/solana/launchpad/CHm8cotMQyNEPmAUZcSC1q16VtEfrYgXPYMh85Tm9xr4"
+                href="https://pump.fun/HfmBQPMBTFpXDa1f1LQTEsFuyFmJxi5rcMwMsUj26tG"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-custom rounded-md ">

@@ -3,12 +3,11 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo } from "../components/data";
+import { benefitTwo } from "../components/data";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
-import Chart from "../components/chart"
 import Spacer from '../components/spacer';
 import Addresses from "../components/addresses";
 
@@ -44,22 +43,9 @@ const Home = () => {
         <Spacer height="70px" />
       </SectionTitle>
       <div id="roadmap" />
-      <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
-      <div id="chart">
-        <SectionTitle
-          pretitle="Trading Chart"
-          title="How are we doing in Real-Time?">
-          {/* Optionally, any additional descriptive text can go here. */}
-        </SectionTitle>
-      </div>
-      <div className="flex-container">
-        <div id="dexscreener-embed">
-          <Chart />
-        </div>
-      </div>
 
-      <div id="addresses">
+      <div id="address">
         <SectionTitle pretitle="Short Whitepaper" title="Transparency">
           So here are all the important addresses made upon token creation.
           You can of course use something like rugcheck but I always like to see the transactions of the token-accounts.
