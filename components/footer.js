@@ -2,8 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
-import { FaReddit, FaTelegram, FaDiscord } from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTelegram } from 'react-icons/fa';
 
 export default function Footer() {
   const navigation = [
@@ -17,10 +16,7 @@ export default function Footer() {
 
   // Social links can also be mapped from an array if they become numerous
   const socialLinks = [
-    { icon: <FaXTwitter size={24} />, href: "https://twitter.com/CaptainNiek", label: "X" },
     { icon: <FaTelegram size={24} />, href: "https://t.me/+tFSs5utypOQzZjZk", label: "Telegram" },
-    { icon: <FaDiscord size={24} />, href: "https://discord.gg/6BHkYb24", label: "Discord" },
-    { icon: <FaReddit size={24} />, href: "https://www.reddit.com/r/CaptainNiek/", label: "Reddit" },
   ];
 
   return (

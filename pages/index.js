@@ -41,7 +41,7 @@ const Home = () => {
       <Benefits imgPos="right" data={benefitTwo} />
       <div id="FAQ">
         <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-          You can also ask me directly via <a href="https://t.me/+tFSs5utypOQzZjZk" className="text-custom hover:text-custom dark:hover:text-custom-100" target="_blank" rel="noopener noreferrer"> Telegram</a>
+          You can also ask me directly via <a href="https://t.me/@niek01" className="text-custom hover:text-custom dark:hover:text-custom-100" target="_blank" rel="noopener noreferrer"> Telegram</a>
         </SectionTitle>
       </div>
       <Faq />
