@@ -35,30 +35,26 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Where can I buy this token?",
-    answer: "It's deployed on Raydium but i'd advice you to buy the token on Jupiter or, quick trading aggregators like Photon for fast transactions.",
+    question: "What is the stack used for this website?",
+    answer: "Completly made from scratch with: NextJS, React, Tailwindcss, and Heroicons. The website is hosted with Vercel.",
   },
   {
-    question: "How can I be appart in event's?",
-    answer: "There will be airdrops for every holder but we will also organize events like: Competitions and provissioning challanges. You should join the Discord or Telegram group for the fun event's.",
+    question: "How can I contact you?",
+    answer: "You can contact me via Telegram, Github, or E-Mail. For general tech support, I prefer to use Telegram. For business inquiries, I prefer to use E-Mail.",
   },
   {
-    question: "Am I the owner of Captain Bright?",
+    question: "Where can I ceck you're certifications?",
     answer:
-      "Although I created it and am in charge of the marketing wallet and community wallet, I do not own the token. I only developed it and minted the tokenomics, mint is revoken and LP is burned.",
+      "You can make a request for my certifications via E-Mail. I will provide you with a PDF file containing all the certifications I have obtained. You can confirm the over at CompTIA's website.",
   },
   {
     question: "Do I offer technical support?",
     answer:
-      "Yes, feel free to DM me about everything. Although I am unable to recover losses I can and want to explain to you what has happend in order for us to learn from it.",
+      "Yes, feel free to DM me about everything.",
   },
   {
     question: "How much experience do you have?",
-    answer: "I have a very good understanding of blockchain and crypto economics. I have developed and deployed numerous things also on other chains like Ethreum and Binance smart-chain. But I have never ran a project like this. This will be my first, and only project, I'm prepared to do the work for it and have great IRL connections related to the space and when we are big enough I can get us on some major EU exchanges.",
-  },
-  {
-    question: "Can I help the community?",
-    answer: "Yes please! Lol! I'm terrible at graphic design, if any of you are great at creating banners, meme's, logo's and stuff. Contact me in the Discord server that also needs moderators, feel free to share anything. There are also a lot of programmers 100 times better as me so if you have any suggestions, feel free to contact me. We're really starting from scratch here",
+    answer: "I have developed a lot of things over the past years, I have experience with a lot of languages and frameworks. I have been working with Linux for over 10 years. I have been working with NodeJS, JavaScript, Python, and Rust for over 5 years. I have been working with NextJS, React, and Tailwindcss for over 2 years.",
   },
 ];
 

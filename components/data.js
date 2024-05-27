@@ -12,61 +12,28 @@ import {
 import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
-const benefitOne = {
-  title: "Token Distribution",
-  desc: "I don't want to make it more complicated then it has to be, remember that it's memeonomics! The total supply will be 750.000.000 and ofcourse the Solana standarts, LP burned, 0% Tax. We don't want that sh*t in here!",
-  image: benefitOneImg,
-  bullets: [
-    {
-      title: "Pre-Sale locked liquidity",
-      desc: "375.000.000/50% - Locked for 5 Years.",
-      icon : <ChartBarIcon />,
-    },
-    {
-      title: "Community distribution",
-      desc: "187.500.000/25% - Airdrops & Event's, join the Discord or Telegram for update's about event's.",
-      icon: <CurrencyDollarIcon />, // Using CSS for color
-    },
-    {
-      title: "Marketing distribution",
-      desc: "82.500,000/11% - Used for strategic partnerships with influencers and exchanges.",
-      icon: <NewspaperIcon />, // Using Tailwind custom color
-    },
-    {
-      title: "CEX Liquidity",
-      desc: "105.000.000/14% - Liquidity for the furure phases in order to get listed on Coinbase!",
-      icon: <UserIcon />, // Example using a Tailwind predefined color
-    },
-  ],
-};
-
 const benefitTwo = {
-  title: "The Roadmap",
-  desc: "How tf are we going to get listed on Coinbase?",
+  title: "What can I do",
+  desc: "These are the thing I'm confident at.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Phase one ~ Decentralized",
-      desc: "In this phase we will focus on growth, insetivize liquidity provisioning by airdropping tokens to the most engaged providers while stabally growing the amount of holders. We will empty the enitere allocated community ditribution in this phase. Make sure to drink a beer with me in the Discord and or Telegram group! We will also contact influencers in this phase in order to grow the community.",
+      title: "Back-end development",
+      desc: "I am very fluent with JavaScript and NodeJS, I started with these language's after understanding #C because JavaScript is a very versatile language for back-end and front end. I believe that this is the best path to take in becomming a full-stack developer.",
       icon: <LockClosedIcon />,
     },
     {
-      title: "Phase two ~ Centralization",
-      desc: "So before entering this phase the community wallet has to be empty, and I would like to see between 20-50k holders before entering this phase. We will slowley start listing on boring boomer exchanges, remember that we aren't doing the traditional centralized route. The main plan is: 'list, adapt and repeat', with adapting I mean making sure the volatility some what stablizes after we've been listed on a large cex. Listing on a new place always brings volatility that can be good and or bad. That's why we'll move slowly in order to don't fck things up.",
+      title: "Server development",
+      desc: "Linux is the king on the server side, I have been working with Linux for over 10 years. I have experience with a lot of distro's but my main distro is Arch. I have been working with Linux for over 10 years. I have experience with a lot of distro's but my main distro is Arch is fully customizeable and good for developers. My konlage and experience with Arch can be used for any other distro.",
       icon: <FingerPrintIcon />,
     },
     {
-      title: "Phase three ~ Casino royale",
-      desc: "The fun one's, the 10 baggers. Letting people go jacked to the tits with leverage, future's and options. Exchange's like Binance, Coinbase, MEXC, Bitget, etc. The main thing here is that we have to see what happens, tokens often die on these exchganges but the real one's don't. If the project goes as plan, we already have sufficient holders because of the boring boomer exchanges. The boomers hold the tokens and the gambler make the price go up because of speculative demand. This is because the supply of the token is relativly low, while the volatility is high and, the demand is big because of the cetnralized exchanges.",
+      title: "Fast researching",
+      desc: "For development I always need to research a lot, I am very good at finding the right information and using it to my advantage. The key is to learn new protocols fast and know how to Google the right information. The information space is rapidly developing and we programmers have to stay on top, so using other means like ChatGPT is in my opinion a good way to stay on top of the game.",
       icon: <VariableIcon />,
     },
-    {
-      title: "Phase four ~ The achievement",
-      desc: "Coinbase baby, the hall of fame. Or the hall of shame, I let you decide. This idea is so incredibly regarded, I love it. That's just me, I always have been the one with the stupid ideas lol. Lets just do it again shall we?",
-      icon: <CakeIcon />
-    }
   ],
 };
 
 
-export {benefitOne, benefitTwo};
+export { benefitTwo };

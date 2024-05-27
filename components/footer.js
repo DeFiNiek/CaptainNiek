@@ -7,12 +7,12 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   const navigation = [
-    "About",
-    "Roadmap",
-    "Chart",
+    "About me",
+    "Experience",
+    "FAQ",
   ];
-  const legalLinks = [
-    { label: "Legal Statement", href: "https://filemanager.one.com/api/webspace/2/drive/captainbright.com/data/httpd.www/CaptainBright-Legal-Statement.pdf?forceDownload=true" },
+  const Certifications = [
+    { label: "Certification", href: "https://filemanager.one.com/api/webspace/2/drive/captainbright.com/data/httpd.www/CaptainBright-Legal-Statement.pdf?forceDownload=true" },
   ];
 
   // Social links can also be mapped from an array if they become numerous
@@ -38,13 +38,12 @@ export default function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Captain Bright</span>
+                <span>Niek Kamer</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Captain Bright as thicker NIEK on Solana.
-              Made by a Solana enthousiast for Solana enthousiasts!
+              My portfolio website, where I showcase my skills and projects. I am a developer with a passion for technology.
             </div>
           </div>
 
@@ -60,7 +59,7 @@ export default function Footer() {
           <div>
             <div>
               <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-                {legalLinks.map((item, index) => (
+                {Certifications.map((item, index) => (
                   <Link key={index} href={item.href} className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-gray-900 focus:text-gray-900 focus:bg-custom focus:outline-none dark:focus:bg-trueGray-700">
                     {item.label}
                   </Link>
@@ -89,9 +88,9 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made by <a href="mailto:contact@captainbright.com" className="text-custom hover:text-custom dark:hover:text-custom">
+          Copyright © {new Date().getFullYear()}. Made by <a href="mailto:niekkamer0105@gmail.com" className="text-custom hover:text-custom dark:hover:text-custom">
             Niek
-          </a>, for the Solana ecosystem.
+          </a>, a portfolio about me.
         </div>
       </Container>
     </div>

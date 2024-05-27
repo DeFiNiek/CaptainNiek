@@ -5,9 +5,8 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    { name: "About", href: "#about" },
-    { name: "Roadmap", href: "#roadmap" },
-    { name: "Address", href: "#addresses"},
+    { name: "Home", href: "#about" },
+    { name: "Experience", href: "#roadmap" },
     { name: "FAQ", href: "#FAQ" },
   ];
 
@@ -28,7 +27,7 @@ const Navbar = () => {
                         height="64"
                         className="w-8"
                     />
-                    <span>Captain Bright</span>
+                    <span>Niek Kamer</span>
                   </span>
                 </Link>
 
@@ -51,7 +50,7 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <a href="https://pump.fun/HfmBQPMBTFpXDa1f1LQTEsFuyFmJxi5rcMwMsUj26tG" className="w-full px-6 py-2 mt-3 text-center text-white bg-custom rounded-md lg:ml-5">
-                      Buy on Pump-Fun!
+                      My other projects
                     </a>
                   </>
                 </Disclosure.Panel>
@@ -75,7 +74,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <a href="https://pump.fun/HfmBQPMBTFpXDa1f1LQTEsFuyFmJxi5rcMwMsUj26tG" className="px-6 py-2 text-white bg-custom rounded-md md:ml-5">
-            Buy on Pump-Fun!
+            My other projects
           </a>
 
           <ThemeChanger />
